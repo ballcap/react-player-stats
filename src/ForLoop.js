@@ -3,9 +3,15 @@ import style from './ForLoop.module.css';
 
 const products = [
   { id: 1, name: 'Cloud', atk: 201, def: 199, mag: 81, magdef: 121, spd: 203, luck: 51 },
-  { id: 2, name: 'Barret', atk: 252, def: 207, mag: 57, magdef: 116, spd: 159, luck: 53 },
-  { id: 3, name: 'Tifa', atk: 184, def: 221, mag: 137, magdef: 127, spd: 237, luck: 50 },
-  { id: 3, name: 'Aerith', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 }
+  { id: 2, name: 'Barret', atk: 240, def: 207, mag: 57, magdef: 116, spd: 159, luck: 53 },
+  { id: 3, name: 'Tifa', atk: 164, def: 201, mag: 117, magdef: 103, spd: 212, luck: 50 },
+  { id: 4, name: 'Aerith', atk: 103, def: 174, mag: 238, magdef: 226, spd: 180, luck: 55 },
+  { id: 5, name: 'Q', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 },
+  { id: 6, name: 'Hugo', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 },
+  { id: 7, name: 'Ryu', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 },
+  { id: 8, name: 'Ken', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 },
+  { id: 9, name: 'Chun Li', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 },
+  { id: 10, name: 'Urien', atk: 103, def: 174, mag: 250, magdef: 226, spd: 180, luck: 55 }
 ];
 
 const Product = ({ name, atk, def, mag, magdef, spd, luck}) => (
